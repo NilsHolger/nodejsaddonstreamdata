@@ -1,0 +1,24 @@
+{
+  "name": "sensor",
+  "version": "0.0.1",
+  "gypfile": true,
+  "description": "node addon stream data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "addon",
+    "v8",
+    "libuv",
+    "c++",
+    "streaming-worker"
+  ],
+  "author": "Nils-Holger Nägele",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0",
+    "streaming-worker-sdk": "^0.9.1"
+  }
+}
